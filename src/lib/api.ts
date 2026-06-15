@@ -9,6 +9,13 @@ export const api = axios.create({
 });
 
 export interface Video {
+  [x: string]: ReactNode;
+  id: Key | null | undefined;
+  title: ReactNode;
+  uploadDate: string;
+  id: Key | null | undefined;
+  title: ReactNode;
+  uploadDate: string;
   _id: string
   titleHindi: string
   descriptionHindi: string
